@@ -5,3 +5,14 @@ const menuIcon = document.querySelector('.menu-icon');
 menuIcon.addEventListener('click', () => {
   document.querySelector('nav > ul').classList.toggle('show');
 });
+
+// Add this to your script.js file
+function toggleMenu() {
+  var menu = document.getElementById('menu');
+  if (menu.style.display === 'block') {
+    menu.style.display = 'none';
+  } else {
+    menu.style.display = 'block';
+  }
+}
+
